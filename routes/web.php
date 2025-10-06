@@ -8,4 +8,3 @@ Route::get('/', function () {
 });
 
 Route::get('/videos', [VideosController::class, 'index'],);
-
